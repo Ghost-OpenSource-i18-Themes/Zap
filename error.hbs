@@ -13,8 +13,8 @@
         <li>
             <h5>{{{rule}}}</h5>
             {{#foreach failures}}
-            <span><strong>Ref:</strong> {{ref}}</span><br>
-            <span><strong>Message:</strong> {{message}}</span>
+            <span><strong>(t "Ref:")</strong> {{ref}}</span><br>
+            <span><strong>(t "Message:")</strong> {{message}}</span>
             {{/foreach}}
         </li>
         {{/foreach}}
